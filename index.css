@@ -1,29 +1,37 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background: #07081A;
 }
-#navWrapper{
+
+#navWrapper {
     display: flex;
     justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
 }
-#navBar{
+
+#navBar {
     display: flex;
     justify-content: baseline;
 }
-header{
-    padding: 28px 200px 0px 200px;
+
+header {
+    padding: 28px 0 0 0;
     border-bottom: 1px solid #261C51;
 }
+
 #navList {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
-    
+
 }
 
 .greenNavItem {
@@ -42,13 +50,77 @@ header{
     text-decoration: none;
 }
 
-#mainFrame{
+#mainFrame {
     display: flex;
-width: 1040px;
-justify-content: space-between;
-align-items: center;
+    width: 1040px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
 }
-#mainFrame h1{
+
+#mainFrame h1 {
     color: #FFF;
-font-size: 48px;
+    font-size: 48px;
+}
+
+#mainFrameWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projectsMainFrame {
+    display: flex;
+    width: 1040px;
+    padding: 40px 72px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #242642;
+}
+
+.projectsFrame h2 {
+    color: #8CE900;
+    font-size: 56px;
+}
+
+.projectsFrame {
+    color: #C0C0C0;
+
+    text-align: center;
+    font-size: 20px
+}
+
+#footerSection {
+    display: flex;
+    width: 1040px;
+    align-items: center;
+    gap: 254px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+#greyP {
+    color: #C0C0C0;
+    font-size: 14px;
+}
+.whiteP{
+    color: #FFF;
+font-size: 16px;
+}
+.greenP{
+    color: #8CE900;
+font-size: 16px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
 }
